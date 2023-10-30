@@ -11,14 +11,14 @@ nav ul {
 }
 
 nav a {
-  background-color: unset;
-  color: var(--navlink-color);
+  background-color: darkblue;
+  color: rgb(253, 249, 241);
   font-weight: bold;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 nav a:hover {
-  color: var(--light);
+  color: red;
 }
 
 body {
@@ -49,4 +49,29 @@ body {
   aspect-ratio: 16/9;
   overflow: hidden;
   align-items: center;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-width: 300px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-content: space-between;
+  min-width: 300px;
+}
+
+ul a {
+  background-color: darkblue;
+  color: rgb(253, 249, 241);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+ul a:hover {
+  color: red;
 }
