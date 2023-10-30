@@ -3,20 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zach's Portfolio</title>
-    <link rel="stylesheet" href="./Assets/style.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./Assets/css/style.css">
 </head>
 <body>
     <header>
-        <h1>Portfolio</h1>
+        <h1>Zachary Brewer</h1>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Resources</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#resume">Resume</a></li>
             </ul>
         </nav>
     </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <div>
+                <img src="https://via.placeholder.com/200" alt="placeholder image">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam repellendus omnis, adipisci cupiditate sed, sequi, labore consequuntur obcaecati facere voluptas ut harum numquam. Aliquam similique, quas laudantium libero soluta minima.</p>
+            </div>
+        </section>
+        <section id="work">
+            <h2>Work</h2>
+            <div class="portfolio-items">
+                <article>
+                    <h3>01 Activity</h3>
+                    <a href="#">
+                        <img src="./Assets/images/01-html-css-git-homework-demo.png" alt="placeholder image">
+                    </a>
+                </article>
+                <article>
+                    <h3>02 Activity</h3>
+                    <a href="#">    
+                        <img src="./Assets/images/keyboard-stock.jpg" alt="placeholder image">
+                    </a>
+                </article>
+                <article>
+                    <h3>03 Activity</h3>
+                    <a href="#">
+                        <img src="./Assets/images/coding.jpg" alt="placeholder image">
+                    </a>
+                </article>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <ul>
+                <li>
+                    <a href="#">GitHub</a>
+                </li>
+                <li>
+                    <a href="#">LinkedIn</a>
+                </li>
+            </ul>
+        </section>
+    </main>
 </body>
 </html>
